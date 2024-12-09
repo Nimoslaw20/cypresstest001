@@ -9,20 +9,9 @@ describe('Login - Saucelab', () => {
 
 
   beforeEach(() => {
-    
- 
     cy.clearCookies();
     cy.clearLocalStorage();
-    
   });
-
-
-  // it('Login functionality', () => {
-
-  //   cy.get("form").should('exist');
-  //   cy.pause();
-  //   currentPage.typeUsername("username");
-  // });
 
 
   it('Login functionality', () => {
