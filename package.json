@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:run": "cypress run",
-    "open":"pnpx cypress open"
+    "startrun":"pnpx cypress open"
   },
   "keywords": [],
   "author": "",
